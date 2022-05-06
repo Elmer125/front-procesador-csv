@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import { ContactContext } from "../Context/contact-context";
+import { ContactContext } from "../Context/contact.context";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Spinner } from "./Spinner";
 import contactServices from "../Services/contact.services";

@@ -3,7 +3,7 @@ import "./App.css";
 import ReactFileReader from "react-file-reader";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Table } from "./Components/Table";
-import { ContactContext } from "./Context/contact-context";
+import { ContactContext } from "./Context/contact.context";
 
 function App() {
   const { handleFiles, textarea, handleSubmit, data } =
